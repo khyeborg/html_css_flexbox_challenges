@@ -10,9 +10,33 @@ img {
 div div {
 	margin: auto;
 	width: 33%;
-	height: 250px;
+	height: 150px;
 }
 
 #big_div {
 	border: 5px solid black;
+	display: -ms-inline-flexbox;
+}
+#sub_div1{
+display: inline;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+
+
+}
+#sub_div2{
+	display: block;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#sub_div3{
+	display: -moz-box;
+	align-items:flex-end ;
+	justify-content: right;
+
+
 }
